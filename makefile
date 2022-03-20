@@ -1,0 +1,2 @@
+test: 
+	pylint app.py
