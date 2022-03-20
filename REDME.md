@@ -1,0 +1,1 @@
+Po poprawnym pobraniu repozytorium wystarczy wykonać komendę: flask run
