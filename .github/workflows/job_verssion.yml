@@ -6,4 +6,4 @@ jobs:
     steps:
       - run: python3 --version
       - run: docker --version
-        usues: actions/checkout@v3
+      - usues: actions/checkout@v3

@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: pylint app.py
-        usues: actions/checkout@v3
+      - usues: actions/checkout@v3
