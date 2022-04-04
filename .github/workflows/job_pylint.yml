@@ -1,4 +1,4 @@
-name: Job showing verssions
+name: Job un pylint
 on: [push]
 jobs:
   job_verssion:
