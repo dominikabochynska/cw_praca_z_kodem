@@ -1,0 +1,8 @@
+name: Job showing verssions
+on: [push]
+jobs:
+  job_verssion:
+    runs-on: ubuntu-latest
+    steps:
+      - run: pylint app.py
+        usues: actions/checkout@v3

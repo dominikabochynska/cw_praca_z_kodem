@@ -1,0 +1,9 @@
+name: Job showing verssions
+on: [push]
+jobs:
+  job_verssion:
+    runs-on: ubuntu-latest
+    steps:
+      - run: python3 --version
+      - run: docker --version
+        usues: actions/checkout@v3
